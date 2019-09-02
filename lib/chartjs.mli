@@ -2346,7 +2346,7 @@ and ['a] pieDataset = object
   (** {2 Styling} *)
 
   method backgroundColor :
-    ('a pieOptionContext Js.t, Color.t Js.t) Scriptable_indexable.t Js.t Js.optdef_prop
+    Js.js_string Js.t Js.js_array Js.t Js.prop
   (** Arc background color. *)
 
   method borderColor :

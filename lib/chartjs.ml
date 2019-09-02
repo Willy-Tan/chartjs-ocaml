@@ -1874,7 +1874,7 @@ and ['a] pieDataset = object
   method data : 'a Js.js_array Js.t Js.prop
 
   method backgroundColor :
-    ('a pieOptionContext Js.t, Color.t Js.t) Scriptable_indexable.t Js.t Js.optdef_prop
+    Js.js_string Js.t Js.js_array Js.t Js.prop
 
   method borderColor :
     ('a pieOptionContext Js.t, Color.t Js.t) Scriptable_indexable.t Js.t Js.optdef_prop
