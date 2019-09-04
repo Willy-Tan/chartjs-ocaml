@@ -12,6 +12,7 @@ test:
 	dune runtest -f
 
 install:
+	dune build @install
 	dune install
 
 uninstall:
